@@ -1,10 +1,4 @@
 {
-  "functions": {
-    "src/routes/**/*.ts": {
-      "runtime": "@vercel/node@3.0.7"
-    },
-    "src/routes/**/*.js": {
-      "runtime": "@vercel/node@3.0.7"
-    }
-  }
+  "buildCommand": "npm run build",
+  "framework": "sveltekit"
 }
