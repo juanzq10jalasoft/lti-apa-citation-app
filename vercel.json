@@ -1,9 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "framework": "sveltekit",
-  "functions": {
-    "src/**": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "framework": "sveltekit"
 }
