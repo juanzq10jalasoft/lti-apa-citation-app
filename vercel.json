@@ -1,10 +1,10 @@
 {
   "functions": {
     "src/routes/**/*.ts": {
-      "runtime": "nodejs22.x"
+      "runtime": "@vercel/node@3.0.7"
     },
     "src/routes/**/*.js": {
-      "runtime": "nodejs22.x"
+      "runtime": "@vercel/node@3.0.7"
     }
   }
 }
